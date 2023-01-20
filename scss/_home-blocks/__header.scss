@@ -1,0 +1,343 @@
+.header{
+    width: 100%;
+    height: 722px;
+    border: 2px solid;
+    .header_navbar{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .burger{
+        display: none;
+    }
+    .header_logo{
+        width: 20%;
+        height: 100%;
+        .scoot{
+            margin-top: 15px;
+            margin-left: 140px;
+        }
+    }
+    .header_lists{
+        width: 40%;
+        height: 100%;
+        .header_list{
+            display: flex;
+            margin-top: 21px;
+            .header-item{
+                padding-right: 30px;
+                a{
+                    font-family: 'Space Mono', monospace;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* identical to box height, or 167% */
+
+
+                    color: #939CAA;
+                }
+                a:hover{
+                    color: #FCB72B;
+                }
+            }
+            .header-item2{
+                margin-left: 30px;
+            }
+        }
+    }
+    .header_button{
+        width: 40%;
+        height: 100%;
+        button{
+            background: #FCB72B;
+            padding: 6px;
+            width: 180px;
+            border: 3px solid orange;
+            margin-top: 15px;
+            margin-left: 260px;
+            font-family: 'Space Mono', monospace;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            /* identical to box height, or 167% */
+
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+        button:hover{
+            border: 3px solid #FCB72B;
+            background: white;
+            color: #FCB72B;
+        }
+    }
+    .hearor{
+        width: 100%;
+        height: 90%;
+        border: 1px solid;
+        background-image: url(/media/img/bg-scooter.jpg);
+        background-repeat: no-repeat;
+        .hearor_title{
+            h1{
+                margin-top: 155px;
+                margin-left: 146px;
+                width: 500px;
+                font-family: 'Space Mono', monospace;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 56px;
+                /* or 100% */
+
+                letter-spacing: -2.5px;
+
+                color: #FFFFFF;
+            }
+            p{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+        }
+        .hearor_text{
+            display: flex;
+            .arrow{
+                position: absolute;
+                margin-top: 75px;
+            }
+            .arrow2{
+                max-width: 100%;
+                height: auto;
+                margin-top: 65px;
+                margin-left: 20px;
+            }
+            p{
+                margin-top: 40px;
+                width: 405px;
+                margin-left: 235px;
+                font-family: 'Lexend Deca', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+
+                color: #FFFFFF;
+            }
+        }
+        .hearor_button{
+            margin-top: -40px;
+            margin-left: 237px;
+            button{
+                background: #FCB72B;
+                padding: 10px;
+                width: 160px;
+                border: none;
+                font-family: 'Space Mono', monospace;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+            button:hover{
+                border: 2px solid #FCB72B;
+                color: #FCB72B;
+                background-color: white;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .scoot-container{
+        width: 100%;
+    }
+    .header{
+        height: 525px;
+        .header_navbar{
+            height: 15%;
+        }
+        .header_logo{
+            width: 10%;
+            height: 100%;
+            .scoot{
+                margin-left: 30px;
+            }
+        }
+        .header_lists{
+            width: 40%;
+            height: 100%;
+            .header_list{
+                .header-item2{
+                    margin-left: 130px;
+                }
+            } 
+        }
+        .header_button{
+            width: 50%;
+            height: 100%;
+            button{
+                margin-left: 150px;
+            }
+        }
+        .hearor{
+            background-size: 1000px;
+            height: 450px;
+            .hearor_title{
+                h1{
+                    margin-top: 85px;
+                }
+                p{
+                    display: block;
+                    width: 573px;
+                    padding-top: 20px;
+                    margin: 0 auto;
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+                button{
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    background: #FCB72B;
+                    padding: 10px;
+                    width: 160px;
+                    border: 2px solid #FCB72B;
+                    font-family: 'Space Mono', monospace;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* identical to box height, or 167% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+                button:hover{
+                    border: 2px solid #FCB72B;
+                    color: #FCB72B;
+                    background-color: white;
+                }    
+                
+            }
+            .hearor_text{
+                
+                .arrow{
+                    display: none;
+                }
+                .arrow2{
+                    margin-left: -90px;
+                    margin-top: -44px;
+                }
+                p{
+                    display: none;
+                }
+            }
+            .hearor_button{
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 430px) {
+    .scoot-container{
+        width: 100%;
+    }
+    .header{
+        .header_navbar{
+            .burger{
+                display: block;
+                width: 30%;
+                height: 100%;
+                img{
+                    margin: 25px;
+                    margin-left: 30px;
+                }
+            }
+            .header_logo{
+                width: 70%;
+                height: 100%;
+            }
+            .header_lists{
+                display: none;
+            }
+            .header_button{
+                display: none;
+            }
+        }
+        .hearor{
+            .hearor_title{
+                h1{
+                    margin-top: 15px;
+                    margin-left: 0px;
+                    margin: 0 auto;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 40px;
+                    /* or 100% */
+                    width: 210px;
+                    text-align: center;
+                    letter-spacing: -1.78571px;
+                    margin-top: 40px;
+                    color: #FFFFFF;
+                }
+                p{
+                    display: block;
+                    margin: 0 auto;
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+                    width: 257px;
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+                button{
+                    display: block;
+                }
+            }
+            .hearor_text{
+                .arrow{
+                    display: none;
+                }
+                .arrow2{
+                    margin-left: -245px;
+                }
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+    }
+    
